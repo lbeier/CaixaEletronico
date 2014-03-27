@@ -14,7 +14,7 @@ class Calculadora
 
 				if quantidadeDeNotas != 0
 					notas.push([c, quantidadeDeNotas])
-					valor = valor - (valorDaNota * quantidadeDeNotas)					
+					valor -= (valorDaNota * quantidadeDeNotas)					
 				end							
 			end
 		end
